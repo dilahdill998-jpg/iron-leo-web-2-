@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Iron Leo - Parfum Pilihan</title>
+<meta name="description" content="Iron Leo: parfum Blue Aura, Golden Eclipse, dan Queen Aura. Pesan langsung lewat WhatsApp.">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <nav class="nav-l"><a href="#/">Katalog</a><a href="#/kategori">Kategori</a></nav>
+  <a href="#/" class="logo">IRON LEO</a>
+  <nav class="nav-r">
+    <a href="#" id="waTop" class="btn wa sm hide-m" target="_blank" rel="noopener">Chat WhatsApp</a>
+    <button class="cart-btn" id="cartBtn" aria-label="Buka keranjang">Keranjang<b id="cartCount">0</b></button>
+  </nav>
+</div></header>
+
+<main id="app" class="wrap" aria-live="polite"></main>
+
+<footer class="site"><div class="wrap"><span class="logo">IRON LEO</span>Parfum untuk setiap langkah Anda.<p style="margin:14px 0 0"><a href="#" id="waFoot" target="_blank" rel="noopener" style="color:var(--gold)">Chat WhatsApp</a></p></div></footer>
+
+<div class="drawer-bg" id="bg"></div>
+<aside class="drawer" id="drawer" aria-label="Keranjang belanja" aria-hidden="true">
+  <header><h2>Keranjang</h2><button class="x" id="closeCart" aria-label="Tutup">&times;</button></header>
+  <div class="items" id="items"></div>
+  <footer id="cartFoot"></footer>
+</aside>
+<div class="toast" id="toast" role="status"></div>
+<script src="produk.js"></script>
+<script src="app.js"></script>
+<script src="kontak.js"></script>
+</body>
+</html>

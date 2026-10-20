@@ -1,0 +1,15 @@
+IRON LEO - Website Pembeli
+
+CARA MELIHAT
+Klik dua kali file index.html. Website terbuka di browser. Tidak perlu install apa pun.
+
+CARA MENGUBAH PRODUK / HARGA / NOMOR WHATSAPP
+Buka produk.js dengan Notepad, ubah isinya, simpan, lalu muat ulang halaman (F5).
+Nomor WhatsApp awal (6281234567890) hanya contoh. Harga awal Rp150.000 juga placeholder.
+
+CARA MENAMBAH PRODUK BARU
+Salin satu blok produk di produk.js, ganti id (huruf kecil tanpa spasi), nama, harga, cerita, dan daftar foto.
+Foto taruh di folder img/.
+
+CARA PUBLIKASI GRATIS
+Buka app.netlify.com/drop lalu seret seluruh folder ini ke halaman itu. Website langsung punya alamat online.
