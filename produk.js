@@ -16,15 +16,13 @@ window.PRODUK = [
     {
     "id": "blue-aura",
     "name": "Blue Aura",
-    "category": "unisex",
+    "category": "pria",
     "price": 43000,
     "size": "30 ml",
     "tagline": "Rasakan kesegaran yang memancarkan ketenangan dalam setiap semprotan.",
     "story": `Blue Aura adalah Eau De Parfum dengan karakter Fresh, Aquatic, dan Citrus. Aromanya bersih dan menenangkan, memberi kesan elegan, modern, dan percaya diri.
-
-Nanas dan citrus membuka aromanya dengan segar. Bergamot dan lemon menjaganya tetap bersih di tengah, lalu musk dan woody menutupnya dengan hangat dan berkelas.
-
-Ringan namun tetap berkarakter. Cocok dipakai pria maupun wanita, dari kuliah, kerja, dan hangout sampai meeting dan acara formal.`,
+              Nanas dan citrus membuka aromanya dengan segar. Bergamot dan lemon menjaganya tetap bersih di tengah, lalu musk dan woody menutupnya dengan hangat dan berkelas.
+              Ringan namun tetap berkarakter. Cocok dipakai pria maupun wanita, dari kuliah, kerja, dan hangout sampai meeting dan acara formal.`,
     "notes": {
       "top": "Nanas, Citrus",
       "middle": "Bergamot, Lemon",
